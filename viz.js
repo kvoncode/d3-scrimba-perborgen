@@ -9,3 +9,6 @@ d3.select("#chart")
     .style("width", function(d,i) {
       return d + "px"
     })
+    .text(function(d) {
+      return "$" + d
+    })

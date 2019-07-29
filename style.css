@@ -20,7 +20,11 @@ body {
 
 .bar {
     margin: 1px;
+    padding: 5px;
     background-color: #73ABFE;
-    height: 22px;
+    height: 15px;
     border-radius: 5px;
+    color: beige;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif; 
 }
