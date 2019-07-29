@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#chart {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.bar {
+    margin: 1px;
+    background-color: #73ABFE;
+    height: 22px;
+    border-radius: 5px;
+}
