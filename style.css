@@ -7,7 +7,7 @@ body {
   height: 100vh;
   background-color: rgb(15, 40, 73);
 
-  background-color: #325886;
+  background-color: #B3C6D5;
 }
 
 
@@ -20,7 +20,7 @@ body {
 }
 
 #chart {
-  background-color: rgb(15, 40, 73);
+  background-color: #DEE4E9;
   padding: 50px;
   height: 50%;
   width: 50%;
@@ -36,7 +36,7 @@ body {
 .bar {
   margin: 7px;
   padding: 5px;
-  background-color: #6aa4e7;
+  background-color: rgb(73, 95, 144);
   height: 22px;
   border-radius: 5px;
   color: rgb(255, 255, 255);
