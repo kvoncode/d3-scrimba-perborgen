@@ -1,44 +1,66 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    height: 100vh;
-    background-color: rgb(15, 40, 73);
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(15, 40, 73);
 
-    background-color: #325886;
+  background-color: #325886;
 }
 
+
+
 #root {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #chart {
-    background-color: rgb(15, 40, 73);
-    padding: 50px;
-    height: 50%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    flex-direction: column;
-    /* border: 3px solid #6aa4e785; */
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
-    border-radius: 5px;
+  background-color: rgb(15, 40, 73);
+  padding: 50px;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* border: 3px solid #6aa4e785; */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
 }
 
 .bar {
-    margin: 7px;
-    padding: 5px;
-    background-color: #6aa4e7;
-    height: 22px;
-    border-radius: 5px;
-    color: rgb(255, 255, 255);
-    text-align: right;
-    font-family: 'Josefin Sans', sans-serif; 
+  margin: 7px;
+  padding: 5px;
+  background-color: #6aa4e7;
+  height: 22px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-family: "Josefin Sans", sans-serif;
 }
+
+@media screen and (max-width: 1024px) {
+  #chart {
+    width: 90%;
+    height: 70%;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  #chart {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #chart {
+    padding: 20px;
+  }
+}
+
+
