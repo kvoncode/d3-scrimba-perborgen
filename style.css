@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -12,17 +16,21 @@ body {
 }
 
 #chart {
+    padding: 10px;
+    height: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
+    border: 1px solid red;
 }
 
 .bar {
     margin: 1px;
     padding: 5px;
     background-color: #73ABFE;
-    height: 15px;
+    height: 22px;
     border-radius: 5px;
     color: beige;
     text-align: right;
