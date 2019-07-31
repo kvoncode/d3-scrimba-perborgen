@@ -1,11 +1,13 @@
-var data = [30, 86, 168, 281, 303, 365];
+var data = [30, 500, 168, 281, 303, 365];
+
+const maxDomain = Math.max(...data)
 
 function setBarWidth() {
   const w = $("#chart").width();
 
   const s = d3
     .scaleLinear()
-    .domain([0, 365])
+    .domain([0, maxDomain])
     .range([0, w - 2]);
 
   d3.select("#chart")
@@ -16,12 +18,6 @@ function setBarWidth() {
     });
 }
 
-const w = $("#chart").width();
-
-const s = d3
-  .scaleLinear()
-  .domain([0, 365])
-  .range([0, w - 2]);
 
 d3.select("#chart")
   .selectAll("div")
@@ -29,10 +25,6 @@ d3.select("#chart")
   .enter()
   .append("div")
   .attr("class", "bar")
-  .style("width", function(d) {
-    // console.log(s(d))
-    return s(d) + "px";
-  })
   .text(function(d) {
     return "$" + d;
   });
