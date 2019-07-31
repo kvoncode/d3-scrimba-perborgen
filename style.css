@@ -5,6 +5,9 @@
 body {
     margin: 0;
     height: 100vh;
+    background-color: rgb(15, 40, 73);
+
+    background-color: #325886;
 }
 
 #root {
@@ -16,23 +19,26 @@ body {
 }
 
 #chart {
-    padding: 10px;
+    background-color: rgb(15, 40, 73);
+    padding: 50px;
     height: 50%;
     width: 50%;
     display: flex;
     justify-content: center;
     /* align-items: center; */
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 3px solid #6aa4e785; */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
+    border-radius: 5px;
 }
 
 .bar {
-    margin: 1px;
+    margin: 7px;
     padding: 5px;
-    background-color: #73ABFE;
+    background-color: #6aa4e7;
     height: 22px;
     border-radius: 5px;
-    color: beige;
+    color: rgb(255, 255, 255);
     text-align: right;
     font-family: 'Josefin Sans', sans-serif; 
 }

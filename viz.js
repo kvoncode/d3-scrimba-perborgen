@@ -1,4 +1,4 @@
-var data = [30, 500, 168, 281, 303, 365];
+var data = [30, 86, 168, 281, 303, 365];
 
 const maxDomain = Math.max(...data)
 
