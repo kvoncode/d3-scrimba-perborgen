@@ -22,8 +22,8 @@ body {
 #chart {
   background-color: #DEE4E9;
   padding: 50px;
-  height: 50%;
-  width: 50%;
+  height: 320px;
+  width: 480px;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -34,7 +34,7 @@ body {
 }
 
 .bar {
-  margin: 7px;
+  margin: 2px;
   padding: 5px;
   background-color: rgb(73, 95, 144);
   height: 22px;
@@ -44,12 +44,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-@media screen and (max-width: 1024px) {
-  #chart {
-    width: 90%;
-    height: 70%;
-  }
-}
+
 
 @media only screen and (max-width: 580px) {
   #chart {
@@ -61,6 +56,6 @@ body {
   #chart {
     padding: 20px;
   }
-}
+} 
 
 
